@@ -10,4 +10,6 @@ public class VasactrlApplication {
 		SpringApplication.run(VasactrlApplication.class, args);
 	}
 
+
+
 }
