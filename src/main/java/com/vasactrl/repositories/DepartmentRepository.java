@@ -1,9 +1,9 @@
 package com.vasactrl.repositories;
 
-import com.vasactrl.models.Branch;
+import com.vasactrl.models.Department;
 import org.springframework.data.repository.reactive.ReactiveSortingRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface BranchRepository extends ReactiveSortingRepository<Branch, Long> {
+public interface DepartmentRepository extends ReactiveSortingRepository<Department, Long> {
 }
