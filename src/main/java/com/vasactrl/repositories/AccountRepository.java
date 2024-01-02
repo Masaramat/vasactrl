@@ -1,7 +1,9 @@
 package com.vasactrl.repositories;
 
 import com.vasactrl.models.Account;
-import org.springframework.data.repository.reactive.ReactiveCrudRepository;
+import org.springframework.data.repository.reactive.ReactiveSortingRepository;
+import org.springframework.stereotype.Repository;
 
-public interface AccountRepository extends ReactiveCrudRepository<Account, Long> {
+@Repository
+public interface AccountRepository extends ReactiveSortingRepository<Account, Long> {
 }

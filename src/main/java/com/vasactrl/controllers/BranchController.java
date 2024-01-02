@@ -10,7 +10,7 @@ import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
 @RestController()
-@RequestMapping("/api/v1/branch")
+@RequestMapping("/api/v1/admin/branch")
 @AllArgsConstructor
 public class BranchController {
     private final BranchService service;
